@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    background-color: #f6d7ff;
 }
 
 #container{
@@ -27,4 +28,19 @@ nav{
     gap: 8%;
     background-color: #2f093b;
     padding: 0.5rem;
+}
+
+aside{
+    width: 30%;
+}
+
+#content{
+    display: flex;
+    padding-right: 1rem;
+}
+
+#model{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
