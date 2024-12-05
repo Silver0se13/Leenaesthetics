@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    background-color: #c777e0;
+    padding: 1rem;
+}
+
+h1{
+    color: #2f093b;
+}
+
+#logo{
+    width: 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    background-color: #2f093b;
+    padding: 0.5rem;
+}
