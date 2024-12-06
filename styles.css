@@ -11,7 +11,11 @@ body{
     display: flex;
     justify-content: center;
     background-color: #c777e0;
-    padding: 1rem;
+    padding-top: 1rem;
+}
+
+header{
+    background-color: #c777e0;
 }
 
 h1{
@@ -19,7 +23,12 @@ h1{
 }
 
 #logo{
-    width: 5%;
+    width: 5vw;
+}
+
+h3{
+    text-align: center;
+    color: #62127a;
 }
 
 nav{
