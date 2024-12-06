@@ -48,10 +48,15 @@ aside{
 footer{
     position: fixed;
     left: 0;
-    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin-bottom: 0;
     text-align: center;
     background-color: #2f093b;
-    color: #c777e0;
-    padding: 0.5rem;
-    justify-items: center;
+    color: #62127a;
+    padding: 0.3rem;
+}
+
+#footing{
+    margin-bottom: 0;
 }
