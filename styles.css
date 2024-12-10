@@ -19,6 +19,7 @@ header{
 }
 
 h1{
+    font-family: cursive;
     color: #2f093b;
 }
 
@@ -29,6 +30,7 @@ h1{
 h3{
     text-align: center;
     color: #62127a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav{
@@ -39,13 +41,40 @@ nav{
     padding: 0.5rem;
 }
 
+button{
+    background-color:#c777e0;
+    color:#62127a;
+    border-radius: 10%;
+    border-color: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(244, 100, 196);
+    border-color: none;
+}
+
 aside{
     width: 30%;
+}
+
+#moon{
+    width: 40%;
+    margin-left: 3rem;
+}
+
+#feat{
+    color: #2f093b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #content{
     display: flex;
     padding-right: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 #model{
@@ -54,8 +83,17 @@ aside{
     width: 100%;
 }
 
+#text{
+    background-color: #62127a;
+    color: white;
+    border-radius: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 footer{
-    position: fixed;
     left: 0;
     right: 0;
     width: 100%;
