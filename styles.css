@@ -24,7 +24,7 @@ h1{
 }
 
 #logo{
-    width: 5vw;
+    width: 5rem;
 }
 
 h3{
@@ -69,12 +69,26 @@ aside{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#contenthome{
+    display: flex;
+    padding-right: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
 #content{
     display: flex;
     padding-right: 1rem;
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+}
+
+#modelhome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 #model{
@@ -106,4 +120,293 @@ footer{
 
 #footing{
     margin-bottom: 0;
+}
+
+@media screen and (min-width:1540px){
+    button{
+        font-size: 25px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 1rem;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    #container{
+        gap: 4rem;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    #feat{
+        font-size: 30px;
+    }
+    
+    #sotext{
+        font-size: 30px;
+    }
+
+    #or{
+        font-size: 30px;
+    }
+
+    #metext{
+        font-size: 25px;
+    }
+
+    li{
+        font-size: 29px;
+    }
+
+    #logo{
+        width: 8rem;
+    }
+
+    #text{
+        padding: 3rem;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    #modelhome{
+        width: 80%;
+    }
+
+    #model{
+        width: 80%;
+    }
+
+    video{
+        width:820px;
+    }
+
+    #moon{
+        width: 320px;
+    }
+    
+}
+
+
+@media screen and (min-width:2900px){
+    #modelhome{
+        width: 80%;
+    }
+
+    h1{
+        font-size: 80px;
+    }
+
+    h2{
+        font-size: 45px;
+    }
+
+    #text{
+        padding: 4rem;
+    }
+
+    p{
+        font-size: 35px;
+    }
+
+    #feat{
+        font-size: 35px;
+    }
+    
+    #sotext{
+        font-size: 35px;
+    }
+
+    #or{
+        font-size: 35px;
+    }
+
+    #metext{
+        font-size: 30px;
+    }
+
+    li{
+        font-size: 35px;
+    }
+
+    #logo{
+        width: 15rem;
+    }
+
+
+    h3{
+        font-size: 40px;
+    }
+
+    video{
+        width: 100%;
+    }
+   
+    button{
+        font-size: 35px;
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:1080px){
+
+    #contenthome{
+        align-items: center;
+        gap: 6rem;
+    }
+    #modelhome{
+        width: 150%;
+    }
+    video{
+        width: 70%;
+    }
+    #logo{
+        width: 6rem;
+    }
+}
+
+@media screen and (max-width:850px){
+    #logo{
+        width: 30%;
+    }
+
+    nav{
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    #model{
+        width: 100%;
+    }
+
+    #metext{
+        font-size: medium;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 1rem;
+    }
+
+    #sotext{
+        padding: 1rem;
+    }
+
+    #text{
+        font-size: larger;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: start;
+    }
+
+    #container{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    #contenthome{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin-right: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #content{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    video{
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    footer{
+        font-size: small;
+    }
+
+    #modelhome{
+        display: none;
+    }
+
+    #model{
+        width: 100%;
+    }
+
+    #moon{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #logo{
+        width: 50%;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    #container{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    #contenthome{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin-right: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #content{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    video{
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    footer{
+        font-size: small;
+    }
+
+    #modelhome{
+        display: none;
+    }
+
+    #model{
+        width: 100%;
+    }
+
+    #moon{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #text{
+        margin-left: 1rem;
+    }
+
+    #list{
+        text-align: start;
+    }
 }
